@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "GetPercentageSalesPerStore";
+}
+
+<h2>Percentage Sales Per Store</h2>
+<div ng-app="Charts" ng-controller="PercentageSalesPerStore">
+    <div class="form-group col-md-12">
+        <div class="period-group">
+            <label>Begin Date:</label>
+            <input type="date" name="begin" value="" ng-model="period.begin" class="form-control" />
+        </div>
+        <div class="period-group">
+            <label>End Date:</label>
+            <input type="date" name="begin" value="" ng-model="period.end" class="form-control" />
+        </div>
+        <div class="period-group">
+            <input type="submit" id="submit" ng-click="refresh()" value="Show Data" class="btn btn-success" />
+        </div>
+    </div>
+    <div class="form-group col-md-12">
+        <span class="alert-danger" ng-show="error != ''">{{error}}</span>
+    </div>
+    <div id="container"></div>
+</div>
+
+@section scripts
+{
+    <script src="~/Scripts/Highcharts/highcharts.js"></script>
+    <script src="~/Scripts/Highcharts/js/modules/exporting.js"></script>
+    <script src="~/Scripts/Charts/API.js"></script>
+    <script src="~/Scripts/Charts/PercentageSalesPerStore.js"></script>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+}
+

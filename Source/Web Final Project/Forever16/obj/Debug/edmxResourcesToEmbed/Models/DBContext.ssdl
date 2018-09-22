@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="DateOfBirth" Type="date" Nullable="false" />
+    <Property Name="gender" Type="varchar" MaxLength="16" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="Price" Type="money" Nullable="false" />
+    <Property Name="QttAvailable" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sale">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="PaymentType" Type="int" Nullable="false" />
+    <Property Name="ClientId" Type="int" Nullable="false" />
+    <Property Name="StoreId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SaleItem">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="SaleId" Type="int" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Store">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="Address" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="City" Type="varchar" MaxLength="64" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_SALE_CLIENT">
+    <End Role="Client" Type="Self.Client" Multiplicity="1" />
+    <End Role="Sale" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sale">
+        <PropertyRef Name="ClientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SALE_STORE">
+    <End Role="Store" Type="Self.Store" Multiplicity="1" />
+    <End Role="Sale" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Store">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sale">
+        <PropertyRef Name="StoreId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SALEITEM_PRODUCT">
+    <End Role="Product" Type="Self.Product" Multiplicity="1" />
+    <End Role="SaleItem" Type="Self.SaleItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SaleItem">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SALEITEM_SALE">
+    <End Role="Sale" Type="Self.Sale" Multiplicity="1" />
+    <End Role="SaleItem" Type="Self.SaleItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sale">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SaleItem">
+        <PropertyRef Name="SaleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBModelStoreContainer">
+    <EntitySet Name="Client" EntityType="Self.Client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sale" EntityType="Self.Sale" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SaleItem" EntityType="Self.SaleItem" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Store" EntityType="Self.Store" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_SALE_CLIENT" Association="Self.FK_SALE_CLIENT">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="Sale" EntitySet="Sale" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SALE_STORE" Association="Self.FK_SALE_STORE">
+      <End Role="Store" EntitySet="Store" />
+      <End Role="Sale" EntitySet="Sale" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SALEITEM_PRODUCT" Association="Self.FK_SALEITEM_PRODUCT">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="SaleItem" EntitySet="SaleItem" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SALEITEM_SALE" Association="Self.FK_SALEITEM_SALE">
+      <End Role="Sale" EntitySet="Sale" />
+      <End Role="SaleItem" EntitySet="SaleItem" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

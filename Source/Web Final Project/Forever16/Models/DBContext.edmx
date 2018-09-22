@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Client">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" MaxLength="64" Nullable="false" />
+          <Property Name="LastName" Type="varchar" MaxLength="64" Nullable="false" />
+          <Property Name="Address" Type="varchar" MaxLength="64" Nullable="false" />
+          <Property Name="DateOfBirth" Type="date" Nullable="false" />
+          <Property Name="gender" Type="varchar" MaxLength="16" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="64" Nullable="false" />
+          <Property Name="Price" Type="money" Nullable="false" />
+          <Property Name="QttAvailable" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Sale">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="PaymentType" Type="int" Nullable="false" />
+          <Property Name="ClientId" Type="int" Nullable="false" />
+          <Property Name="StoreId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SaleItem">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProductId" Type="int" Nullable="false" />
+          <Property Name="SaleId" Type="int" Nullable="false" />
+          <Property Name="Quantity" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Store">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="64" Nullable="false" />
+          <Property Name="Address" Type="varchar" MaxLength="64" Nullable="false" />
+          <Property Name="City" Type="varchar" MaxLength="64" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_SALE_CLIENT">
+          <End Role="Client" Type="Self.Client" Multiplicity="1" />
+          <End Role="Sale" Type="Self.Sale" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Client">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sale">
+              <PropertyRef Name="ClientId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SALE_STORE">
+          <End Role="Store" Type="Self.Store" Multiplicity="1" />
+          <End Role="Sale" Type="Self.Sale" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Store">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sale">
+              <PropertyRef Name="StoreId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SALEITEM_PRODUCT">
+          <End Role="Product" Type="Self.Product" Multiplicity="1" />
+          <End Role="SaleItem" Type="Self.SaleItem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Product">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SaleItem">
+              <PropertyRef Name="ProductId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SALEITEM_SALE">
+          <End Role="Sale" Type="Self.Sale" Multiplicity="1" />
+          <End Role="SaleItem" Type="Self.SaleItem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sale">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SaleItem">
+              <PropertyRef Name="SaleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DBModelStoreContainer">
+          <EntitySet Name="Client" EntityType="Self.Client" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sale" EntityType="Self.Sale" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SaleItem" EntityType="Self.SaleItem" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Store" EntityType="Self.Store" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_SALE_CLIENT" Association="Self.FK_SALE_CLIENT">
+            <End Role="Client" EntitySet="Client" />
+            <End Role="Sale" EntitySet="Sale" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SALE_STORE" Association="Self.FK_SALE_STORE">
+            <End Role="Store" EntitySet="Store" />
+            <End Role="Sale" EntitySet="Sale" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SALEITEM_PRODUCT" Association="Self.FK_SALEITEM_PRODUCT">
+            <End Role="Product" EntitySet="Product" />
+            <End Role="SaleItem" EntitySet="SaleItem" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SALEITEM_SALE" Association="Self.FK_SALEITEM_SALE">
+            <End Role="Sale" EntitySet="Sale" />
+            <End Role="SaleItem" EntitySet="SaleItem" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Client">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LastName" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Address" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DateOfBirth" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="gender" Type="String" MaxLength="16" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Sales" Relationship="Self.FK_SALE_CLIENT" FromRole="Client" ToRole="Sale" />
+        </EntityType>
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Price" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="QttAvailable" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="SaleItems" Relationship="Self.FK_SALEITEM_PRODUCT" FromRole="Product" ToRole="SaleItem" />
+        </EntityType>
+        <EntityType Name="Sale">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="PaymentType" Type="Int32" Nullable="false" />
+          <Property Name="ClientId" Type="Int32" Nullable="false" />
+          <Property Name="StoreId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Client" Relationship="Self.FK_SALE_CLIENT" FromRole="Sale" ToRole="Client" />
+          <NavigationProperty Name="Store" Relationship="Self.FK_SALE_STORE" FromRole="Sale" ToRole="Store" />
+          <NavigationProperty Name="SaleItems" Relationship="Self.FK_SALEITEM_SALE" FromRole="Sale" ToRole="SaleItem" />
+        </EntityType>
+        <EntityType Name="SaleItem">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductId" Type="Int32" Nullable="false" />
+          <Property Name="SaleId" Type="Int32" Nullable="false" />
+          <Property Name="Quantity" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Product" Relationship="Self.FK_SALEITEM_PRODUCT" FromRole="SaleItem" ToRole="Product" />
+          <NavigationProperty Name="Sale" Relationship="Self.FK_SALEITEM_SALE" FromRole="SaleItem" ToRole="Sale" />
+        </EntityType>
+        <EntityType Name="Store">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Address" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="City" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="Sales" Relationship="Self.FK_SALE_STORE" FromRole="Store" ToRole="Sale" />
+        </EntityType>
+        <Association Name="FK_SALE_CLIENT">
+          <End Role="Client" Type="Self.Client" Multiplicity="1" />
+          <End Role="Sale" Type="Self.Sale" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Client">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sale">
+              <PropertyRef Name="ClientId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SALEITEM_PRODUCT">
+          <End Role="Product" Type="Self.Product" Multiplicity="1" />
+          <End Role="SaleItem" Type="Self.SaleItem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Product">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SaleItem">
+              <PropertyRef Name="ProductId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SALE_STORE">
+          <End Role="Store" Type="Self.Store" Multiplicity="1" />
+          <End Role="Sale" Type="Self.Sale" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Store">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sale">
+              <PropertyRef Name="StoreId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SALEITEM_SALE">
+          <End Role="Sale" Type="Self.Sale" Multiplicity="1" />
+          <End Role="SaleItem" Type="Self.SaleItem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sale">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SaleItem">
+              <PropertyRef Name="SaleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Forever16DBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Clients" EntityType="Self.Client" />
+          <EntitySet Name="Products" EntityType="Self.Product" />
+          <EntitySet Name="Sales" EntityType="Self.Sale" />
+          <EntitySet Name="SaleItems" EntityType="Self.SaleItem" />
+          <EntitySet Name="Stores" EntityType="Self.Store" />
+          <AssociationSet Name="FK_SALE_CLIENT" Association="Self.FK_SALE_CLIENT">
+            <End Role="Client" EntitySet="Clients" />
+            <End Role="Sale" EntitySet="Sales" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SALEITEM_PRODUCT" Association="Self.FK_SALEITEM_PRODUCT">
+            <End Role="Product" EntitySet="Products" />
+            <End Role="SaleItem" EntitySet="SaleItems" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SALE_STORE" Association="Self.FK_SALE_STORE">
+            <End Role="Store" EntitySet="Stores" />
+            <End Role="Sale" EntitySet="Sales" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SALEITEM_SALE" Association="Self.FK_SALEITEM_SALE">
+            <End Role="Sale" EntitySet="Sales" />
+            <End Role="SaleItem" EntitySet="SaleItems" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DBModelStoreContainer" CdmEntityContainer="Forever16DBEntities">
+          <EntitySetMapping Name="Clients">
+            <EntityTypeMapping TypeName="DBModel.Client">
+              <MappingFragment StoreEntitySet="Client">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+                <ScalarProperty Name="gender" ColumnName="gender" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Products">
+            <EntityTypeMapping TypeName="DBModel.Product">
+              <MappingFragment StoreEntitySet="Product">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="QttAvailable" ColumnName="QttAvailable" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sales">
+            <EntityTypeMapping TypeName="DBModel.Sale">
+              <MappingFragment StoreEntitySet="Sale">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="PaymentType" ColumnName="PaymentType" />
+                <ScalarProperty Name="ClientId" ColumnName="ClientId" />
+                <ScalarProperty Name="StoreId" ColumnName="StoreId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SaleItems">
+            <EntityTypeMapping TypeName="DBModel.SaleItem">
+              <MappingFragment StoreEntitySet="SaleItem">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+                <ScalarProperty Name="SaleId" ColumnName="SaleId" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Stores">
+            <EntityTypeMapping TypeName="DBModel.Store">
+              <MappingFragment StoreEntitySet="Store">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="City" ColumnName="City" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

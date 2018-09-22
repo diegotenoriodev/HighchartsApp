@@ -1,0 +1,185 @@
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\ApplicationInsights.config
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Forever16.dll.config
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Forever16.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Forever16.pdb
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Antlr3.Runtime.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\EntityFramework.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\EntityFramework.SqlServer.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Microsoft.AI.Web.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Microsoft.ApplicationInsights.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Newtonsoft.Json.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\System.Web.Helpers.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\System.Web.Mvc.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\System.Web.Optimization.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\System.Web.Razor.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\System.Web.WebPages.Deployment.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\System.Web.WebPages.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\System.Web.WebPages.Razor.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\WebGrease.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\EntityFramework.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\EntityFramework.SqlServer.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\System.Web.Helpers.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\System.Web.Mvc.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\System.Web.Optimization.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\System.Web.Razor.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\System.Web.WebPages.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\System.Web.WebPages.Deployment.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\System.Web.WebPages.Razor.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Antlr3.Runtime.pdb
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Newtonsoft.Json.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Microsoft.ApplicationInsights.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\bin\Microsoft.AI.Web.xml
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\obj\Debug\Forever16.csprojResolveAssemblyReference.cache
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\obj\Debug\Forever16.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\obj\Debug\Forever16.dll
+C:\Users\diego\OneDrive\Career Path\Portfolio\AureliaProjects\Dmail\Forever16\Forever16\obj\Debug\Forever16.pdb
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\ApplicationInsights.config
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Forever16.dll.config
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Forever16.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Forever16.pdb
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Antlr3.Runtime.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\EntityFramework.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\EntityFramework.SqlServer.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Microsoft.AI.Web.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Microsoft.ApplicationInsights.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Newtonsoft.Json.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\System.Web.Helpers.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\System.Web.Mvc.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\System.Web.Optimization.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\System.Web.Razor.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\System.Web.WebPages.Deployment.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\System.Web.WebPages.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\System.Web.WebPages.Razor.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\WebGrease.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\EntityFramework.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\EntityFramework.SqlServer.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\System.Web.Helpers.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\System.Web.Mvc.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\System.Web.Optimization.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\System.Web.Razor.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\System.Web.WebPages.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\System.Web.WebPages.Deployment.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\System.Web.WebPages.Razor.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Antlr3.Runtime.pdb
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Newtonsoft.Json.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Microsoft.ApplicationInsights.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\bin\Microsoft.AI.Web.xml
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\obj\Debug\Forever16.csprojResolveAssemblyReference.cache
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\obj\Debug\Forever16.csproj.CoreCompileInputs.cache
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\obj\Debug\Forever16.dll
+C:\Users\diego\Google Drive\Conestoga shared\Web\Forever16\Forever16\obj\Debug\Forever16.pdb
+C:\Meus Projetos\Web Final Project\Forever16\bin\ApplicationInsights.config
+C:\Meus Projetos\Web Final Project\Forever16\bin\Forever16.dll.config
+C:\Meus Projetos\Web Final Project\Forever16\bin\Forever16.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\Forever16.pdb
+C:\Meus Projetos\Web Final Project\Forever16\bin\Antlr3.Runtime.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\EntityFramework.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\EntityFramework.SqlServer.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\Microsoft.AI.DependencyCollector.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\Microsoft.AI.Web.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\Microsoft.AI.WindowsServer.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\Microsoft.ApplicationInsights.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\Microsoft.Web.Infrastructure.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\Newtonsoft.Json.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\System.Web.Helpers.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\System.Web.Mvc.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\System.Web.Optimization.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\System.Web.Razor.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\System.Web.WebPages.Deployment.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\System.Web.WebPages.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\System.Web.WebPages.Razor.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\WebGrease.dll
+C:\Meus Projetos\Web Final Project\Forever16\bin\EntityFramework.xml
+C:\Meus Projetos\Web Final Project\Forever16\bin\EntityFramework.SqlServer.xml
+C:\Meus Projetos\Web Final Project\Forever16\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Meus Projetos\Web Final Project\Forever16\bin\System.Web.Helpers.xml
+C:\Meus Projetos\Web Final Project\Forever16\bin\System.Web.Mvc.xml
+C:\Meus Projetos\Web Final Project\Forever16\bin\System.Web.Optimization.xml
+C:\Meus Projetos\Web Final Project\Forever16\bin\System.Web.Razor.xml
+C:\Meus Projetos\Web Final Project\Forever16\bin\System.Web.WebPages.xml
+C:\Meus Projetos\Web Final Project\Forever16\bin\System.Web.WebPages.Deployment.xml
+C:\Meus Projetos\Web Final Project\Forever16\bin\System.Web.WebPages.Razor.xml
+C:\Meus Projetos\Web Final Project\Forever16\bin\Antlr3.Runtime.pdb
+C:\Meus Projetos\Web Final Project\Forever16\bin\Newtonsoft.Json.xml
+C:\Meus Projetos\Web Final Project\Forever16\bin\Microsoft.ApplicationInsights.xml
+C:\Meus Projetos\Web Final Project\Forever16\bin\Microsoft.AI.DependencyCollector.xml
+C:\Meus Projetos\Web Final Project\Forever16\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Meus Projetos\Web Final Project\Forever16\bin\Microsoft.AI.WindowsServer.xml
+C:\Meus Projetos\Web Final Project\Forever16\bin\Microsoft.AI.Web.xml
+C:\Meus Projetos\Web Final Project\Forever16\obj\Debug\Forever16.csprojResolveAssemblyReference.cache
+C:\Meus Projetos\Web Final Project\Forever16\obj\Debug\Forever16.csproj.CoreCompileInputs.cache
+C:\Meus Projetos\Web Final Project\Forever16\obj\Debug\Forever16.dll
+C:\Meus Projetos\Web Final Project\Forever16\obj\Debug\Forever16.pdb
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\ApplicationInsights.config
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Forever16.dll.config
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Forever16.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Forever16.pdb
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Antlr3.Runtime.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\EntityFramework.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\EntityFramework.SqlServer.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Microsoft.AI.DependencyCollector.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Microsoft.AI.Web.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Microsoft.AI.WindowsServer.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Microsoft.ApplicationInsights.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Microsoft.Web.Infrastructure.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Newtonsoft.Json.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\System.Web.Helpers.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\System.Web.Mvc.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\System.Web.Optimization.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\System.Web.Razor.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\System.Web.WebPages.Deployment.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\System.Web.WebPages.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\System.Web.WebPages.Razor.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\WebGrease.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\EntityFramework.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\EntityFramework.SqlServer.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\System.Web.Helpers.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\System.Web.Mvc.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\System.Web.Optimization.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\System.Web.Razor.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\System.Web.WebPages.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\System.Web.WebPages.Deployment.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\System.Web.WebPages.Razor.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Antlr3.Runtime.pdb
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Newtonsoft.Json.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Microsoft.ApplicationInsights.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Microsoft.AI.DependencyCollector.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Microsoft.AI.WindowsServer.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\bin\Microsoft.AI.Web.xml
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\obj\Debug\Forever16.csprojAssemblyReference.cache
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\obj\Debug\Forever16.csproj.CoreCompileInputs.cache
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\obj\Debug\Forever16.csproj.CopyComplete
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\obj\Debug\Forever16.dll
+F:\Code\T2\Web\Diego - Shivangi - Web Final Project\Source\Web Final Project\Forever16\obj\Debug\Forever16.pdb
